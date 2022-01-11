@@ -9,7 +9,7 @@ model_basename=$(basename $onnx_model)
 OUTDIR=$HOME/perfscape-01/data/$model_basename/$target
 mkdir -p $OUTDIR
 
-scp $onnx_model.so $onnx_model.bin root@$target:~/
+rsync -razh --progress $onnx_model.so $onnx_model.bin root@$target:~/
 echo $model_basename
 
 ssh root@$target 'lscpu' > $OUTDIR/lscpu.txt
