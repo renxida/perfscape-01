@@ -22,12 +22,16 @@ PATH=$PATH:$TOP_DIR/intel/sde
 
 echo Done setting up environment.
 
-onnx-mlir -o $onnx_model --EmitLib -O3 $onnx_model
+m_dirname=$(dirname $onnx_model)
 
+pushd $m_dirname # get into location
+m_basename=$(basename $onnx_model)
 
-ls $onnx_model.so
+onnx-mlir -o $m_basename --EmitLib -O3 $m_basename
+
 # compile .so into runner
-g++ $ONNX_MLIR_UTIL/$DRIVERNAME -o $onnx_model.bin -std=c++14 \
+g++ $ONNX_MLIR_UTIL/$DRIVERNAME -o $m_basename.bin -std=c++14 \
 -D LOAD_MODEL_STATICALLY=1 -I $LLVM_PROJ_SRC/llvm/include \
 -I $LLVM_PROJ_BUILD/include -I $ONNX_MLIR_SRC/include \
--L $LLVM_PROJ_BUILD/lib -lLLVMSupport -lLLVMDemangle -lcurses -lpthread -ldl $onnx_model.so
+-L $LLVM_PROJ_BUILD/lib -lLLVMSupport -lLLVMDemangle -lcurses -lpthread -ldl ./$m_basename.so
+popd
