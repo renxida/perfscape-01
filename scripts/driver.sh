@@ -5,7 +5,8 @@ for target in $targets
 do
     echo Setting up $target
     ssh root@$target 'apt update'
-    ssh root@$target 'apt install -y linux-tools-common linux-tools-generic'
+    ssh root@$target 'apt install -y linux-tools-`uname -r`'
+    echo Done setting up $target
 done
 
 for onnx_model in ../workdir/zoo/*.onnx;
