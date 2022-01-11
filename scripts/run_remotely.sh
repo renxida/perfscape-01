@@ -16,4 +16,4 @@ ssh root@$target 'lscpu' > $OUTDIR/lscpu.txt
 
 ssh root@$target \
 "LD_LIBRARY_PATH=/root perf stat -e task-clock,cycles,instructions,cache-references,cache-misses,branches,branch-misses ./$model_basename.bin" \
-> $OUTDIR/perf_output.txt 2>&1
+2>&1 | tee $OUTDIR/perf_output.txt
