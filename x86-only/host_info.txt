@@ -1,0 +1,246 @@
+c3mediumx86 spotdeployed on January 11th, 2022 (12:44 PM UTC-05:00)
+
+    ch3 logoChicago (CH) ch3ubuntu logoUbuntu 20.04 LTS
+
+Management IPs
+Address
+	Network
+	Gateway
+	Type
+93.187.218.93	93.187.218.92/31	93.187.218.92	Public IPv4
+2604:1380:4631:4e00::1	2604:1380:4631:4e00::/127	2604:1380:4631:4e00::	Public IPv6
+10.69.44.129	10.69.44.128/31	10.69.44.128	Private IPv4
+View Elastic IPs
+Instance Details
+
+    Hostname
+    c3mediumx86
+    Description
+    ID
+    9e72d027-baf9-449c-b366-caa4b1a388dc
+    Created by
+    XIda Ren
+    Switch Id
+    5ebab69b
+    Config
+    c3.medium.x86
+    Location
+    Chicago (CH) - CH3
+
+Server Usage
+
+    Hours of Server Usage
+    N/A
+    Billable Bandwidth
+    0.22 GB
+    Price Per Hour / MTD Usage
+    N/A
+    All Usage
+
+Hardware
+
+    PROC1 x AMD EPYC 7402P 24-Core Processor @ 2.8GHz
+    RAM64GB
+    DISK
+
+    2 x 240GB SSD
+
+    2 x 480GB SSD
+    NIC2 x 10Gbps Bonded Ports
+
+
+
+145.40.69.165
+c3 small x86
+PROC1 x Intel(R) Xeon(R) E-2278G CPU @ 3.40GHz
+
+ 
+
+93.187.218.93
+c3 medium x86
+PROC1 x AMD EPYC 7402P 24-Core Processor @ 2.8GHz
+From $4,298.95
+
+
+147.28.128.247
+m3largex86
+PROC1 x AMD EPYC 7502P 32-Core Processor @ 2.5Ghz
+
+
+147.75.48.193
+s3xlargex86
+PROC2 x Intel(R) Xeon(R) Silver 4214 CPU @ 2.20GHz
+
+
+
+
+
+c3smol spotdeployed on January 11th, 2022 (12:54 AM UTC-05:00)
+
+    dc13 logoWashington DC (DC) dc13ubuntu logoUbuntu 20.04 LTS
+
+Management IPs
+Address
+	Network
+	Gateway
+	Type
+145.40.69.165	145.40.69.164/31	145.40.69.164	Public IPv4
+2604:1380:45f1:5d00::1	2604:1380:45f1:5d00::/127	2604:1380:45f1:5d00::	Public IPv6
+10.68.121.1	10.68.121.0/31	10.68.121.0	Private IPv4
+View Elastic IPs
+Instance Details
+
+    Hostname
+    c3smol
+    Description
+    ID
+    40f55b1a-8f9a-4711-9513-34fc6204d49e
+    Created by
+    XIda Ren
+    Switch Id
+    2ebe80d5
+    Config
+    c3.small.x86
+    Location
+    Washington DC (DC) - DC13
+
+Server Usage
+
+    Hours of Server Usage
+    N/A
+    Billable Bandwidth
+    0.09 GB
+    Price Per Hour / MTD Usage
+    N/A
+    All Usage
+
+Hardware
+
+    PROC1 x Intel(R) Xeon(R) E-2278G CPU @ 3.40GHz
+    RAM32GB
+    DISK
+
+    2 x 480GB SSD
+    NIC2 x 10Gbps Bonded Ports
+
+
+
+
+
+
+
+
+m3largex86 spotdeployed on January 11th, 2022 (1:27 AM UTC-05:00)
+
+    dc13 logoWashington DC (DC) dc13ubuntu logoUbuntu 20.04 LTS
+
+Management IPs
+Address
+	Network
+	Gateway
+	Type
+147.28.128.247	147.28.128.246/31	147.28.128.246	Public IPv4
+2604:1380:45f1:5d00::3	2604:1380:45f1:5d00::2/127	2604:1380:45f1:5d00::2	Public IPv6
+10.68.121.3	10.68.121.2/31	10.68.121.2	Private IPv4
+View Elastic IPs
+Instance Details
+
+    Hostname
+    m3largex86
+    Description
+    ID
+    9cafc7de-f69a-46d5-a872-162fef7f99dc
+    Created by
+    XIda Ren
+    Switch Id
+    87c4099b
+    Config
+    m3.large.x86
+    Location
+    Washington DC (DC) - DC13
+
+Server Usage
+
+    Hours of Server Usage
+    N/A
+    Billable Bandwidth
+    0.41 GB
+    Price Per Hour / MTD Usage
+    N/A
+    All Usage
+
+Hardware
+
+    PROC1 x AMD EPYC 7502P 32-Core Processor @ 2.5Ghz
+    RAM256GB
+    DISK
+
+    2 x 240GB SSD
+
+    2 x 3.8TB NVME
+    NIC2 x 25Gbps Bonded Ports
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s3xlargex86 spotdeployed on January 11th, 2022 (11:33 AM UTC-05:00)
+
+    sy4 logoSydney (SY) sy4ubuntu logoUbuntu 20.04 LTS
+
+Management IPs
+Address
+	Network
+	Gateway
+	Type
+147.75.48.193	147.75.48.192/31	147.75.48.192	Public IPv4
+2604:1380:40f1:5c00::1	2604:1380:40f1:5c00::/127	2604:1380:40f1:5c00::	Public IPv6
+10.72.47.1	10.72.47.0/31	10.72.47.0	Private IPv4
+View Elastic IPs
+Instance Details
+
+    Hostname
+    s3xlargex86
+    Description
+    ID
+    3a42b86b-2f94-489e-9765-621106a7372b
+    Created by
+    XIda Ren
+    Switch Id
+    829e9dda
+    Config
+    s3.xlarge.x86
+    Location
+    Sydney (SY) - SY4
+
+Server Usage
+
+    Hours of Server Usage
+    N/A
+    Billable Bandwidth
+    0.07 GB
+    Price Per Hour / MTD Usage
+    N/A
+    All Usage
+
+Hardware
+
+    PROC2 x Intel(R) Xeon(R) Silver 4214 CPU @ 2.20GHz
+    RAM192GB
+    DISK
+
+    2 x 960GB SSD
+
+    2 x 240GB NVME
+
+    12 x 8TB HDD
+    NIC2 x 10Gbps Bonded Ports
